@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Portafolio </title>
+	<link rel="icon" href="img/logo.png" type="image/png">
+	<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0">
+
+	<!--Scripts y bootstrap-->
+
+	<script src="https://kit.fontawesome.com/03a9c1f07d.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+		crossorigin="anonymous"></script>
+
+
+	<!--Estilos locales-->
+	<link href="css/estilo_contacto.css" rel="stylesheet" type="text/css">
+	<link href="css/estilo_Index.css" type="text/css" rel="stylesheet">
+	<link href="css/estilo_inicio.css" type="text/css" rel="stylesheet">
+	<link href="css/estilo_sobreMi.css" type="text/css" rel="stylesheet">
+	<link href="css/estilo_estudios.css" type="text/css" rel="stylesheet">
+	<link href="css/estilo_proyectos.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+	<div class="red">
+		<div id="facebook"><a href="https://www.facebook.com/stevenjefferson.pozo/" target="none"
+				class="fa-brands fa-facebook"></a></div>
+		<div id="instagram"><a href="https://www.instagram.com/steven_jpozo24/?hl=es-es" target="none"
+				class="fa-brands fa-instagram"></a></div>
+		<div id="youtuve"><a href="https://www.youtube.com/channel/UCZ64lklRAQWyd6FjxxPGVpA" target="none"
+				class="fa-brands fa-youtube"></a></div>
+	</div>
+
+
+	<!--encabezado del sistema con la barra de navegación, inicio, quienes somos, contactos-->
+	<nav class="menu">
+		<section class="menu__container">
+			<h1 class="menu__logo"><a href="#" onclick="cargarInicio()"> PORTAFOLIO </a></h1>
+
+			<ul class="menu__links">
+				<li class="menu__item">
+					<a href="#" class="menu__link" onclick="cargarInicio()">Inicio</a>
+				</li>
+
+				<li class="menu__item">
+					<a href="#" class="menu__link" onclick="cargarSobreMi()">Sobre mi</a>
+				</li>
+
+				<li class="menu__item">
+					<a href="#" class="menu__link" onclick="cargarHabilidades()">Estudios y Habilidades</a>
+				</li>
+
+				<li class="menu__item">
+					<a href="#" class="menu__link" onclick="cargarProyectos()">Proyectos</a>
+				</li>
+			</ul>
+
+			<div class="menu__hamburguer">
+				<img src="img/menu.svg" class="menu__img">
+			</div>
+		</section>
+	</nav>
+
+	<!--INICIO-->
+	<br><br><br><br><br>
+	<div id="index" class="contenidoInicio">
+		<div class="circulo">
+			<img src="img/steven.png" alt="Tu Imagen">
+		</div>
+		<div class="nombreCurriculum">
+			<h1><b>STEVEN POZO</b></h1><br>
+			<h3><a href="mailto:sjpozo1@espe.edu.ec">sjpozo1@espe.edu.ec</a></h3>
+		</div>
+		<div class="seccionInferior">
+			<div class="columnaIzquierda">
+				<p><b>Presentación</b></p>
+				<p class="contenidoCI">Hola, soy Steven, y me complace compartir un poco más sobre quién soy. A mis 21
+					años, me encuentro en
+					un emocionante momento de autodescubrimiento y crecimiento. Mi enfoque actual está en construir una
+					base sólida para mi futuro, tanto personal como profesionalmente.
+
+					En el ámbito personal, valoro el aprendizaje constante y la autenticidad. Creo firmemente en la
+					importancia de comprenderme a mí mismo, mis valores y metas. Estoy en una búsqueda constante de
+					conocimiento y experiencias que enriquezcan mi perspectiva y me ayuden a evolucionar como individuo.
+
+					Desde el punto de vista profesional, estoy explorando diversas áreas para descubrir mi verdadera
+					pasión y vocación. Me emociona la idea de contribuir de manera significativa al mundo que me rodea y
+					estoy dispuesto a asumir desafíos que me permitan desarrollar habilidades únicas y valiosas.
+					<a href="#" onclick="cargarSobreMi()"><b>Leer Más</b></a>
+				</p>
+			</div>
+			<div class="columnaCentro">
+				<p><b>Estudios</b></p>
+				<img src="img/ESPE.jpg" alt="ESPE img" class="ImagenEspe" style="width: 100%; height: auto;">
+				<p style="font-size: 9px;">
+					<center><b><a href="https://www.espe.edu.ec">
+								<b>Universidad de las Fuerzas Armadas ESPE <br> Sede Sangolquí.</b></a></b></center>
+				</p>
+				<p class="contenidoCI">Actualmente me encuentro estudiando en la <a href="https://www.espe.edu.ec">
+						<b>Universidad de las Fuerzas Armadas ESPE.</b></a> Estoy cursando el 5to semestre de los 8
+					semestres que conforman la carrera de Ingeniería de Software, que conforma parte del <a
+						href="https://dcco.espe.edu.ec"><b>DCCO</b></a>Departamento de ciencias de la Computación.
+					<a href="#" onclick="cargarHabilidades()"><b>Estudios y Habilidades</b></a>
+				</p>
+
+			</div>
+			<div class="columnaDerecha">
+				<p><b>Pasatiempos</b></p>
+				<p class="contenidoCI">En mis tiempos libres suelo ver series de TV o hacer deporte, ya que 5 dias a la
+					semana e incluso hasta fines de semana paso programando. Distraerme en cosas que no se relacionen
+					con mi carrera me ayuda a mejorar mi concentración.<br>Muchas personas tiene el concepto de que
+					estudiar hasta en tus tiempos libres es lo correcto, pero también entiendo que no todas las personas
+					somos iguales. Creo que aprovechar el tiempo que tienes para hacer algo es lo ideal, por ello
+					siempre
+					divido mis asuntos pendientes y reparto por prioridades las cosas que tengo que hacer. Si hay un
+					deber o un trabajo pendiente priorizo la responsabilidad y acabar los asuntos pendientes, pero
+					cuando acabo todo aprovecho para hacer otras cosas que también me interesan hacer.<br>En resumen,
+					desde mi punto de vista tener estabilidad mental es bueno para lograr hacer las cosas de la mejor
+					manera. <a href="#" onclick="cargarProyectos()"><b>Leer Más</b></a></p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--Pie de página-->
+	<div class="pie">
+		<div class="grupo1">
+			<div class="columnax3">
+				<img src="img/logo.png" alt="logo_SeetHouse"></a>
+			</div>
+			<div class="columnax3">
+				<i class="fa-solid fa-city">
+					Mi Portafolio
+				</i>
+				<br><br><br><a href="#" onclick="cargarContactos()">Contacto personal</a><br>
+			</div>
+			<div class="columnax3">
+				<i class="fa-solid fa-house">SweetHouse</i>
+				<i class="fa-regular fa-thumbs-up">Siguenos</i>
+				<div id="facebook1"><a href="https://www.facebook.com/stevenjefferson.pozo/" target="none"
+						class="fa-brands fa-facebook"></a></div>
+				<div id="instagram1"><a href="https://www.instagram.com/steven_jpozo24/?hl=es-es" target="none"
+						class="fa-brands fa-instagram"></a></div>
+				<div id="youtuve1"><a href="https://www.youtube.com/channel/UCZ64lklRAQWyd6FjxxPGVpA" target="none"
+						class="fa-brands fa-youtube"></a></div>
+				<div id="whatsapp1"><a href="https://www.youtube.com/channel/UCZ64lklRAQWyd6FjxxPGVpA" target="none"
+						class="fa-brands fa-whatsapp"></a></div>
+			</div>
+		</div>
+		<div class="derec">
+			<p>&copy;2023<b>MiPortafolio</b> - Todos los Derechos Reservados</p>
+		</div>
+	</div>
+	<div class="botonArriba" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+		<img src="img/arriba.png" width="45" height="45" alt="" />
+	</div>
+	<script src="js/index.js"></script>
+
+
+</body>
+
+</html>
