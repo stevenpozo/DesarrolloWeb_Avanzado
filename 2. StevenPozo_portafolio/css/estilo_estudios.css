@@ -18,18 +18,24 @@
     background-color: #fff;
 }
 
-.detalleEstudios
-{
+.detalleEstudios {
     margin-top: 40px;
 }
 
-.detalleEstudios img{
+.detalleEstudios img {
     width: 50%;
     height: auto;
     border-radius: 50px;
+    -webkit-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
-p a{
+.detalleEstudios img:hover {
+    transform: scale(1.);
+}
+
+
+p a {
     font-style: italic;
     color: rgba(12, 0, 27, 0.908);
 }
