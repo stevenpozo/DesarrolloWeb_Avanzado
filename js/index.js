@@ -1,4 +1,23 @@
+document.addEventListener('DOMContentLoaded', function () {
+  var linkRegistro = document.getElementById('text_registro');
+  linkRegistro.addEventListener('click', function (e) {
+    e.preventDefault();
 
+    $('#myModal').modal('hide');
+
+    setTimeout(function () {
+      $('#myModal1').modal('show');
+    }, 300); // Ajusta el valor del retraso según sea necesario
+  });
+
+  var closeButton = document.querySelector('#myModal1 .close');
+
+  // Agrega un evento de clic al botón "X"
+  closeButton.addEventListener('click', function () {
+    // Recarga la página
+    location.reload();
+  });
+});
 /*cargar htmls*/
 
 function cargarContactos() {
