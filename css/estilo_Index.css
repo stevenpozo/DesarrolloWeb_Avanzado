@@ -3,13 +3,13 @@
 
 /* CSS Document */
 body {
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
-	width: 100%;
-	height: 25%;
-
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", sans-serif; /* Cambia "Arial" por "Didot" */
+    width: 100%;
+    height: 25%;
 }
+
 
 .botonArriba {
 	position: fixed;
@@ -62,6 +62,13 @@ body {
 
 .menu {
 	position: fixed;
+}
+
+.menu__logo a {
+	text-decoration: none;
+	color: rgb(255, 255, 255); 
+	font-size: 24px; 
+	text-shadow: 2px 2px 4px rgb(238, 215, 9); 
 }
 
 .menu__container {
@@ -119,7 +126,7 @@ body {
 }
 
 .menu__link:hover {
-	background-color: #5e7094;
+	background: rgba(250, 248, 114, 0.7);
 }
 
 
@@ -207,7 +214,7 @@ h5,
 h6 {
 	text-transform: uppercase;
 	color: #2D2D2D;
-	font-family: Arial, sans-serif;
+	font-family: "Georgia", sans-serif; /* Cambia "Arial" por "Didot" */
 	letter-spacing: 1px;
 }
 
@@ -345,7 +352,7 @@ p {
 .columnax3 h4,
 a {
 	color: #17202A;
-	font-family: Arial, sans-serif;
+	font-family: "Georgia", sans-serif; /* Cambia "Arial" por "Didot" */
 	text-decoration: none;
 }
 
@@ -501,19 +508,6 @@ img {
 	padding: 10px 40px;
 }
 
-#twitter a {
-	background-color: #55acee;
-	padding: 10px 20px;
-	color: #fff;
-	text-decoration: none;
-	width: 50px;
-	transition: all .4s ease;
-}
-
-#twitter a:hover {
-	background: #000;
-	padding: 10px 40px;
-}
 
 #instagram a {
 	background-color: #3f729b;
@@ -559,6 +553,16 @@ img {
 	box-sizing: border-box;
 }
 
+#whatsapp1 a{
+	padding: 10px 20px;
+	color: #00bb1c;
+	text-decoration: none;
+	width: 25%;
+	font-size: 30px;
+	float: left;
+	box-sizing: border-box;
+}
+
 #instagram1 a {
 	padding: 10px 20px;
 	color: #3f729b;
@@ -569,20 +573,20 @@ img {
 	box-sizing: border-box;
 }
 
-#twitter1 a:hover {
-	background: rgba(250, 128, 114, 0.70);
-}
-
 #facebook1 a:hover {
-	background: rgba(250, 128, 114, 0.70);
+	background: rgba(250, 248, 114, 0.7);
 }
 
 #youtuve1 a:hover {
-	background: rgba(250, 128, 114, 0.70);
+	background: rgba(250, 248, 114, 0.7);
+}
+
+#whatsapp1 a:hover {
+	background: rgba(250, 248, 114, 0.7);
 }
 
 #instagram1 a:hover {
-	background: rgba(250, 128, 114, 0.70);
+	background: rgba(250, 248, 114, 0.7);
 }
 
 /*Galeria de imagenes*/
