@@ -47,10 +47,10 @@
 .columnaCentro,
 .columnaDerecha {
 	width: 30%;
-	box-sizing: border-box; 
-    border: 1px solid #ffffff; 
-    padding: 10px; 
-    margin: 10px 20px 30px 3px;
+	box-sizing: border-box;
+	border: 1px solid #ffffff;
+	padding: 10px;
+	margin: 10px 20px 30px 3px;
 	border-radius: 20px;
 	box-shadow: 2px 2px 5px rgba(28, 27, 27, 1);
 }
@@ -71,5 +71,34 @@
 	color: #0a0a0a;
 }
 
+/*zoom imagen*/
+.columnaCentro img{
+	transition: transform 0.3s ease-in-out;
+}
 
-/* Añade estilos adicionales según sea necesario */
+.columnaCentro img:hover{
+	transform: scale(1.04);
+}
+
+
+/* Media queries para hacerlo responsivo */
+@media (max-width: 768px) {
+	.seccionInferior {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		/* Ajusta el margen superior según sea necesario */
+	}
+
+	.columnaIzquierda,
+	.columnaCentro,
+	.columnaDerecha {
+		width: 95%;
+		box-sizing: border-box;
+		border: 1px solid #ffffff;
+		padding: 10px;
+		margin: 10px 20px 30px 3px;
+		border-radius: 20px;
+		box-shadow: 2px 2px 5px rgba(28, 27, 27, 1);
+	}
+}

@@ -125,8 +125,23 @@ body {
 	margin-left: 20px;
 }
 
+.menu__link{
+	transition: transform 0.3s ease-in-out;
+}
 .menu__link:hover {
-	background: rgba(250, 248, 114, 0.7);
+	transform: scale(1.1);
+	text-decoration: none;
+	color: yellow;
+}
+
+.menu__logo{
+	transition: transform 0.3s ease-in-out;
+}
+
+.menu__logo:hover {
+	transform: scale(1.1);
+	text-decoration: none;
+	color: yellow;
 }
 
 
@@ -573,20 +588,36 @@ img {
 	box-sizing: border-box;
 }
 
+#facebook1 {
+	transition: transform 0.3s ease-in-out;
+}
+
+#youtuve1 {
+	transition: transform 0.3s ease-in-out;
+}
+
+#whatsapp1 {
+	transition: transform 0.3s ease-in-out;
+}
+
+#instagram1 {
+	transition: transform 0.3s ease-in-out;
+}
+
 #facebook1 a:hover {
-	background: rgba(250, 248, 114, 0.7);
+	transform: scale(1.1);
 }
 
 #youtuve1 a:hover {
-	background: rgba(250, 248, 114, 0.7);
+	transform: scale(1.1);
 }
 
 #whatsapp1 a:hover {
-	background: rgba(250, 248, 114, 0.7);
+	transform: scale(1.1);
 }
 
 #instagram1 a:hover {
-	background: rgba(250, 248, 114, 0.7);
+	transform: scale(1.1);
 }
 
 /*Galeria de imagenes*/

@@ -68,3 +68,94 @@
   font-size: 14px;
 }
 
+
+/*zoom imagenes*/
+.imagen img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.imagen img:hover{
+  transform: scale(1.05);
+}
+
+.imagen iframe {
+  transition: transform 0.3s ease-in-out;
+}
+
+.imagen iframe:hover{
+  transform: scale(1.08);
+}
+
+.imagen2 img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.imagen2 img:hover{
+  transform: scale(1.05);
+}
+
+
+/* Media queries para hacerlo responsivo */
+@media (max-width: 768px) {
+	.bloque {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+  }
+
+  .imagen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagen img {
+    max-width: 95%;
+    max-height: 100%;
+  }
+
+  .imagen iframe {
+    max-width: 95%;
+    max-height: 100%;
+  }
+
+  .informacion{
+    width: auto;
+    text-align: center;
+  }
+
+  .bloque2 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+  }
+
+  .imagen2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagen2 img {
+    max-width: 95%;
+    max-height: 100%;
+  }
+
+  .informacion2{
+    width: auto;
+    text-align: center;
+  }
+
+  .informacion2 ul li{
+    font-family: "Georgia", sans-serif;
+    text-align: left;
+  }
+}
